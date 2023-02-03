@@ -1,6 +1,6 @@
 import { useSelector } from 'react-redux'
 import React from 'react'
-import { selectAllPosts } from './postsSlice'
+import { selectAllPosts } from './PostsSlice'
 
 const PostsList = () => {
     const posts = useSelector(selectAllPosts)
